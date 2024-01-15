@@ -18,8 +18,7 @@ const basketSlice = createSlice({
       },
     },
     deleteBasket: (state, { payload }) => {
-      console.log(payload);
-      return state.filter(el => el.id !== payload);
+      state.filter(el => el.id !== payload);
     },
   },
 });
