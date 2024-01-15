@@ -1,0 +1,32 @@
+.title{
+    
+    font-size: 16px;
+}
+
+.list{
+    list-style:none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.row{
+    display: grid;
+    grid-template-columns: 10em 1fr 5em 5em 5em;
+    border-bottom: 1px solid grey;
+
+}
+
+.total{
+    background-color: rgb(179, 177, 228);
+}
+
+.item{
+    padding: 0.5em 1em;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.digit{
+  text-align: center;
+}
