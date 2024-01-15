@@ -7,10 +7,17 @@ import { Provider } from 'react-redux';
 
 export const App = () => {
   return (
-    <Provider store={store}>
-      <BrowserRouter basename="/react-redux-shop">
-        <UserRoutes />
-      </BrowserRouter>
-    </Provider>
+    <div
+      style={{
+        height: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        fontSize: 40,
+        color: '#010101',
+      }}
+    >
+      React homework template
+    </div>
   );
 };
