@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import styles from './basket-page.module.css';
 import { getBasket } from '../../redux/selectors';
 
-import { deleteBasket } from '../../redux/actions';
+import { deleteBasket } from '../../redux/basket/basket-slice';
 
 import Button from '../../shared/Components/Button';
 

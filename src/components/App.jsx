@@ -1,23 +1,19 @@
 import { BrowserRouter } from 'react-router-dom';
+import { PersistGate } from 'redux-persist/es/integration/react';
 
 import UserRoutes from './UserRoutes';
 
-import { store } from '../redux/store';
+import { store, persistedStore } from '../redux/store';
 import { Provider } from 'react-redux';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
-      React homework template
-    </div>
+    <Provider store={store}>
+      <PersistGate persistor={persistedStore} loading={null}>
+        <BrowserRouter className="App" basename="/react-redux-shop">
+          <UserRoutes />
+        </BrowserRouter>
+      </PersistGate>
+    </Provider>
   );
 };
