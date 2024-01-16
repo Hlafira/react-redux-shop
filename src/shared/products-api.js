@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const instance = axios.create({
   baseURL: 'https://63f4926e2213ed989c45a6d0.mockapi.io/name',
-  timeout: 1000,
+  timeout: 10000,
 });
 
 export const getProducts = async () => {

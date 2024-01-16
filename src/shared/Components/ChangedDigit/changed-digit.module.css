@@ -1,0 +1,37 @@
+.digit{
+    display: flex;
+    
+}
+
+.val{
+    padding: 0.1em 0;
+    width: 2em;
+    text-align: center;
+    border: 1px solid hsl(228, 35%, 39%);
+}
+
+.button {
+    padding: 0.1em     0.7em;
+    background-color: hsl(228, 35%, 39%);
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    border: none;    
+}
+    
+.button:hover {
+    background-color: hsl(229, 31%, 45%);
+}
+
+.left{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.right{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}

@@ -1,13 +1,14 @@
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { useSelector } from 'react-redux';
 
 import { getProducts } from 'shared/products-api';
 import ProductsList from 'components/ProductsList/ProductsList';
-// import { addBasket } from '../../redux/actions';
+
 import { addBasket } from '../../redux/basket/basket-slice';
-import { getBasket } from '../../redux/selectors';
-import { showWarnNotification } from '../../shared/notifictions';
+
+import { showSuccessNotification } from '../../shared/notifictions';
+
+import css from './products-page.module.css';
 
 const ProductsPage = () => {
   const [products, setProducts] = useState([]);
@@ -16,7 +17,6 @@ const ProductsPage = () => {
     const fetchProducts = async () => {
       try {
         const products = await getProducts();
-
         setProducts(products);
       } catch (e) {
         console.log(e);
@@ -27,23 +27,13 @@ const ProductsPage = () => {
 
   const dispatch = useDispatch();
   const addProduct = product => {
-    if (isProductInBasket(product.id)) {
-      showWarnNotification(
-        "This product already in basket. You can't add this more than one time!"
-      );
-    } else {
-      const action = addBasket(product);
-      dispatch(action);
-    }
-  };
-
-  const basketList = useSelector(getBasket);
-  const isProductInBasket = newId => {
-    return Boolean(basketList.find(({ id }) => newId === id));
+    showSuccessNotification(`${product.name} added in basket`);
+    dispatch(addBasket(product));
   };
 
   return (
     <>
+      <div className={css.title}>Products</div>
       <ProductsList items={products} onAddProduct={addProduct} />
     </>
   );

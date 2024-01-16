@@ -1,0 +1,19 @@
+.row {
+    display: grid;
+    grid-template-columns: 10em 1fr 7em 5em 5em;
+    border-bottom: 1px solid rgb(42, 42, 56);
+}
+
+.item {
+    padding: 0.5em 1em;
+    display: flex;
+    align-items: center;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.centered {
+    justify-content: center;
+}

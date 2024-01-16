@@ -1,5 +1,5 @@
 import css from './products-list.module.css';
-import Button from 'shared/Components/Button';
+import Button from 'shared/Components/Button/Button';
 
 const ProductsList = ({ items, onAddProduct }) => {
   const elements = items.map(({ id, name, description, price }) => (

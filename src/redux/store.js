@@ -15,7 +15,6 @@ import {
   REGISTER,
 } from 'redux-persist';
 
-// import { rootReducer } from './reducer';
 import { basketReducer } from './basket/basket-slice';
 
 export const rootReducer = combineReducers({ basket: basketReducer });

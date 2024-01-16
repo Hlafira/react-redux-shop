@@ -3,9 +3,6 @@ import { lazy } from 'react';
 import { Suspense } from 'react';
 
 import SharedLayout from './SharedLayout/SharedLayout';
-// import ProductsPage from 'pages/ProductsPage/ProductsPage';
-// import BasketPage from 'pages/BasketPage/BasketPage';
-// import HomePage from 'pages/HomePage/HomePage';
 
 const ProductsPage = lazy(() => import('../pages/ProductsPage/ProductsPage'));
 const BasketPage = lazy(() => import('../pages/BasketPage/BasketPage'));
