@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/react-redux-shop/static/css/main.891e44f8.css",
-    "main.js": "/react-redux-shop/static/js/main.be30e12d.js",
-    "static/css/591.2e46af4e.chunk.css": "/react-redux-shop/static/css/591.2e46af4e.chunk.css",
-    "static/js/591.3d660a9f.chunk.js": "/react-redux-shop/static/js/591.3d660a9f.chunk.js",
-    "static/css/357.194dac00.chunk.css": "/react-redux-shop/static/css/357.194dac00.chunk.css",
-    "static/js/357.ad56b36d.chunk.js": "/react-redux-shop/static/js/357.ad56b36d.chunk.js",
+    "main.js": "/react-redux-shop/static/js/main.265a1b45.js",
+    "static/css/932.543ca9e1.chunk.css": "/react-redux-shop/static/css/932.543ca9e1.chunk.css",
+    "static/js/932.ab07e12e.chunk.js": "/react-redux-shop/static/js/932.ab07e12e.chunk.js",
+    "static/css/983.3e91d6d6.chunk.css": "/react-redux-shop/static/css/983.3e91d6d6.chunk.css",
+    "static/js/983.5a15efbd.chunk.js": "/react-redux-shop/static/js/983.5a15efbd.chunk.js",
     "static/js/680.0158d035.chunk.js": "/react-redux-shop/static/js/680.0158d035.chunk.js",
     "static/js/294.c6370d03.chunk.js": "/react-redux-shop/static/js/294.c6370d03.chunk.js",
     "index.html": "/react-redux-shop/index.html",
     "main.891e44f8.css.map": "/react-redux-shop/static/css/main.891e44f8.css.map",
-    "main.be30e12d.js.map": "/react-redux-shop/static/js/main.be30e12d.js.map",
-    "591.2e46af4e.chunk.css.map": "/react-redux-shop/static/css/591.2e46af4e.chunk.css.map",
-    "591.3d660a9f.chunk.js.map": "/react-redux-shop/static/js/591.3d660a9f.chunk.js.map",
-    "357.194dac00.chunk.css.map": "/react-redux-shop/static/css/357.194dac00.chunk.css.map",
-    "357.ad56b36d.chunk.js.map": "/react-redux-shop/static/js/357.ad56b36d.chunk.js.map",
+    "main.265a1b45.js.map": "/react-redux-shop/static/js/main.265a1b45.js.map",
+    "932.543ca9e1.chunk.css.map": "/react-redux-shop/static/css/932.543ca9e1.chunk.css.map",
+    "932.ab07e12e.chunk.js.map": "/react-redux-shop/static/js/932.ab07e12e.chunk.js.map",
+    "983.3e91d6d6.chunk.css.map": "/react-redux-shop/static/css/983.3e91d6d6.chunk.css.map",
+    "983.5a15efbd.chunk.js.map": "/react-redux-shop/static/js/983.5a15efbd.chunk.js.map",
     "680.0158d035.chunk.js.map": "/react-redux-shop/static/js/680.0158d035.chunk.js.map",
     "294.c6370d03.chunk.js.map": "/react-redux-shop/static/js/294.c6370d03.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.891e44f8.css",
-    "static/js/main.be30e12d.js"
+    "static/js/main.265a1b45.js"
   ]
 }
